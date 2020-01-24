@@ -1,0 +1,22 @@
+body {
+  background-color: pink;
+  font-family: helvetica;
+}
+
+.question-container {
+  color: white;
+  background-color: coral;
+  padding: 20px;
+}
+
+.question {
+  color: pink;
+  font-size: 20pt;
+  font-family: 'Righteous', cursive;
+
+}
+
+img {
+  width: 100px;
+  padding: 10px;
+}
