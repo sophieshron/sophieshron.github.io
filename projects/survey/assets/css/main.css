@@ -1,22 +1,43 @@
 body {
-  background-color: pink;
-  font-family: helvetica;
+  text-align: center;
 }
 
+h1{
+  text-align: center;
+  font-size: 60pt;
+  padding-top: 20pt;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+a {
+  color: pink;
+}
 .question-container {
   color: white;
-  background-color: coral;
   padding: 20px;
+  max-width: 500px;
+  margin-left:30%;
+  border-radius: 40px;
+  border-style: dotted;
+  border-color: black;
 }
 
 .question {
   color: pink;
-  font-size: 20pt;
-  font-family: 'Righteous', cursive;
+  font-size: 15pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-bottom: 20px;
 
+}
+
+.answer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10pt;
+    color: black;
 }
 
 img {
   width: 100px;
   padding: 10px;
 }
+

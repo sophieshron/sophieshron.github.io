@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40pt;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+
+a {
+  color:pink;
+}
