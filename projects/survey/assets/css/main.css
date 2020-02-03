@@ -41,3 +41,9 @@ img {
   padding: 10px;
 }
 
+ .link {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 15pt;
+   position: center;
+ }
+

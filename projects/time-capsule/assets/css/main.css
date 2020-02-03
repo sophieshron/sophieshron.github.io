@@ -1,0 +1,142 @@
+img {
+  position: absolute;
+}
+
+.item {
+  position: absolute;
+}
+
+.bed {
+  width: 40%;
+}
+
+.lamp {
+  width: 9%;
+  margin-left: 45%;
+}
+
+.boots {
+  max-width: 10%;
+  left: 10%;
+  top: 21%;
+}
+
+.window {
+  max-width: 35%;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+
+.sew {
+  max-width: 13%;
+  margin-left: 54%;
+  margin-top: 30%;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.sew:hover {
+  animation-play-state: running;
+}
+
+.mouse {
+  max-width: 10%;
+  margin-left: 13%;
+  margin-top: 30%;
+  animation: clockwise 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.mouse:hover {
+  animation-play-state: running;
+}
+
+.heart-throb {
+  max-width: 10%;
+  margin-left: 57%;
+  animation: clockwise 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.heart-throb:hover {
+  animation-play-state: running;
+}
+
+.gamecube {
+  max-width: 15%;
+  margin-left: 15%;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.gamecube:hover {
+  animation-play-state: running;
+}
+
+.zebra {
+  max-width: 12%;
+  margin-top: 30%;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.zebra:hover {
+  animation-play-state: running;
+}
+
+.flowerhands {
+  max-width: 15%;
+  margin-left: 70%;
+  margin-top: 3%;
+  animation: clockwise 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.flowerhands:hover {
+  animation-play-state: running;
+}
+
+.burger {
+  max-width: 10%;
+  margin-left: 70%;
+  margin-top: 25%;
+  animation: counter 5s linear infinite;
+  animation-play-state: paused; 
+}
+
+.burger:hover {
+  animation-play-state: running;
+}
+
+.metro {
+  max-width: 5%;
+  margin-left: 43%;
+  margin-top: 15%;
+  animation: clockwise 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.metro:hover {
+  animation-play-state: running;
+}
+
+.box {
+  max-width: 8%;
+  margin-top: 20%;
+  margin-left: 60%;
+}
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 5%;
+}
+
+
+@keyframes clockwise {
+  100% {transform: rotate(1turn); }
+}
+
+@keyframes counter {
+  100% {transform: rotate(-1turn); }
+}

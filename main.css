@@ -12,10 +12,55 @@ body {
     vertical-align: middle;
     font-size: 40pt;
     font-family: 'Archivo Black', sans-serif;
-
 }
 
-
-a {
-  color:pink;
+.survey {
+  position: absolute;
+  top:30px;
+  left: 50px;
+  font-size:20px;
 }
+
+.time-capsule {
+  position: absolute;
+  top:30px;
+  left: 250px;
+  font-size:20px;
+}
+
+.one {
+  color: pink;
+  position: absolute;
+  left:300px;
+}
+
+.two {
+  color: lightgreen;
+  position: absolute;
+  left:400px;
+}
+
+.three {
+  color: lightblue;
+  position: absolute;
+  left:500px;
+}
+
+.four {
+  color: coral;
+  position: absolute;
+  left:600px;
+}
+
+.five {
+  color: lavender;
+  position: absolute;
+  left:700px;
+}
+
+.six {
+  color: tan;
+  position: absolute;
+  left:780px;
+}
+
