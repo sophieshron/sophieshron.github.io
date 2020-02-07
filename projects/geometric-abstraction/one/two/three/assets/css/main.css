@@ -1,0 +1,42 @@
+body {
+  background-color: lightgray;
+    width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.7vw;
+}
+
+.one {
+
+  background-color: #F15F22;
+}
+
+.two {
+  background-color: #00AF4D;
+}
+
+.three {
+
+  background-color: #A7794F;
+}
+
+.four {
+
+  background-color: #76297E;
+}
+
+.five {
+  background-color: #EDDC12;
+}
+
+.box {
+  border-style: solid;
+  border-color: black;
+  border-width: 1vw;
+  width: 13vw;
+  height: 13vw;
+}

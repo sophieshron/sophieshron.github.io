@@ -1,0 +1,113 @@
+
+.circle {
+  border-style:solid;
+  border-color: black;
+  border-width: 6px;
+}
+.zero {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  background-color: #EF5594;
+  position: absolute;
+  top:30px;
+}
+
+.one {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background-color: #F05324;
+  position: fixed;
+  top:90px;
+  z-index: 5000;
+  margin:0 auto;
+  left: 38.34vw;
+}
+
+.two {
+  width: 28vw;
+  height: 28vw;
+  border-radius: 50%;
+  background-color: #00A8D2;
+  top:80vh;
+  position: absolute;
+
+}
+
+.three {
+  width: 26vw;
+  height: 26vw;
+  border-radius: 50%;
+  background-color: #00AF4D;
+  top:150vh;
+  position: absolute;
+
+}
+
+.four {
+  width: 24vw;
+  height: 24vw;
+  border-radius: 50%;
+  background-color: #76297E;
+  top:220vh;
+  position: absolute;
+
+}
+
+.five {
+  width: 22vw;
+  height: 22vw;
+  border-radius: 50%;
+  background-color: coral;
+  top:285vh;
+  position: absolute;
+}
+
+.six {
+  width: 22vw;
+  height: 22vw;
+  border-radius: 50%;
+  background-color: #EE3429;
+  top:348vh;
+  position: absolute;
+}
+
+.seven {
+  width: 21vw;
+  height: 21vw;
+  border-radius: 50%;
+  background-color: pink;
+  top:405vh;
+  position: absolute;
+}
+
+.eight {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background-color: #A59AE2;
+  top:460vh;
+  position: absolute;
+}
+
+.nine {
+  width: 28vw;
+  height: 28vw;
+  border-radius: 50%;
+  background-color: white;
+  top:560vh;
+  position: absolute;
+  border:none;
+}
+
+.container {
+  width: 100vw;
+  height: 500vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

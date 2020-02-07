@@ -1,66 +1,79 @@
-html, body {
-    height: 100%;
-}
 
-html {
-    display: table;
-    margin: auto;
-}
+
 
 body {
-    display: table-cell;
-    vertical-align: middle;
     font-size: 40pt;
     font-family: 'Archivo Black', sans-serif;
 }
 
-.survey {
-  position: absolute;
-  top:30px;
-  left: 50px;
-  font-size:20px;
+
+/* Dropdown Menu */
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'Archivo Black', sans-serif;
 }
 
-.time-capsule {
-  position: absolute;
-  top:30px;
-  left: 250px;
-  font-size:20px;
+.dropdown {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+  font-size: 16px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 
+}
+
+/* hover */
+.dropdown-content a:hover {background-color: lightgreen;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* sophie */
 .one {
   color: pink;
-  position: absolute;
-  left:300px;
 }
 
 .two {
   color: lightgreen;
-  position: absolute;
-  left:400px;
 }
 
 .three {
   color: lightblue;
-  position: absolute;
-  left:500px;
 }
 
 .four {
   color: coral;
-  position: absolute;
-  left:600px;
 }
 
 .five {
   color: lavender;
-  position: absolute;
-  left:700px;
 }
 
 .six {
   color: tan;
-  position: absolute;
-  left:780px;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-around;
 }
 
