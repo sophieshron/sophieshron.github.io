@@ -1,0 +1,183 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.catbody {
+    background-color: beige;
+    width: 80px;
+    height: 100px;
+    border-radius: 30px;
+    position: absolute;
+    left: 320px;
+    bottom: 0px;
+}
+
+.cathead {
+    background-color: beige;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 330px;
+    bottom: 90px;
+}
+
+.catear1 {
+    position: absolute;
+    top: 451px;
+    left: 331px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: beige transparent transparent transparent;
+}
+
+.catear1red {
+    position: absolute;
+    top: 455px;
+    left: 335px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+    border-color: maroon transparent transparent transparent;
+}
+
+.catear2red {
+    position: absolute;
+    top: 455px;
+    left: 375px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color:  transparent maroon transparent transparent;
+}
+
+.catear2 {
+    position: absolute;
+    top: 451px;
+    left: 369px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent beige transparent transparent;
+}
+
+.cateye1 {
+    border-radius: 50%;
+    background-color: black;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    top: 480px;
+    left: 345px;
+}
+
+.cateye2 {
+  border-radius: 50%;
+  background-color: black;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    top: 480px;
+    left: 365px;
+}
+
+.book {
+    border-radius: 10px;
+    width: 140px;
+    height: 200px;
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    left: 110px;
+}
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Your CSS goes here */
+
+.stem1 {
+    width: 6px;
+    height: 40px;
+    background-color: green;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+}
+
+.flower1 {
+  position: absolute;
+  background-color: pink;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: -60px;
+  left: 0px;
+}
+
+.flowerone{
+position: absolute;
+left: 10px;
+}
+
+.stem2 {
+    width: 6px;
+    height: 40px;
+    background-color: green;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.flower2 {
+  position: absolute;
+  background-color: pink;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: -60px;
+  left: 10px;
+}
+
+.flowertwo{
+position: absolute;
+left: 40px;
+}
+
+.vase {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.camera {
+    background-color: darkgray;
+    width: 40px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 160px;
+}
