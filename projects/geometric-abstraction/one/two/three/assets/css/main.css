@@ -10,27 +10,31 @@ body {
   padding: 1.7vw;
 }
 
-.one {
+.green {
 
-  background-color: #F15F22;
-}
-
-.two {
   background-color: #00AF4D;
 }
 
-.three {
-
-  background-color: #A7794F;
+.pink {
+  background-color: #EF5594;
 }
 
-.four {
+.blue {
 
-  background-color: #76297E;
+  background-color: #00A8D2;
 }
 
-.five {
-  background-color: #EDDC12;
+.orange {
+
+  background-color: #F68C1F;
+}
+
+.purple {
+  background-color: #BAB2D8;
+}
+
+.yellow {
+  background-color: yellow;
 }
 
 .box {
