@@ -103,6 +103,14 @@ body {
     position: absolute;
     left: 110px;
 }
+
+.text {
+    font-family: "helvetica", sans-serif;
+    font-size: 12pt;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 8vw;
+    left: 6vw;}
 .frame {
   width: 1000px;
   height: 600px;
