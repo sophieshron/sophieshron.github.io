@@ -14,7 +14,7 @@ body {
 .frame {
   width: 95vw;
   height: 57vw;
-  background: white;
+  background: #6495ED;
   margin: 2.5vw auto;
   position: relative;
 }
@@ -34,13 +34,33 @@ body {
   position: absolute;
   background-color: white; 
 }
+.bookbox {
+    bottom: 0vh;
+    border-color: black;
+    border-style: solid;
+    border-width: .3vw;
+    border-radius: .7vw;
+    position: absolute;
+    height: 14vw;
+    width: 9vw;
+    background-color: white;
+}
+.mid {
+  left: 2.9vw;
+  top: 2.5vw;
+}
+.front {
+ left: 4vw;
+ top: 3.5vw;
+}
 .text {
   font-family: "helvetica", sans-serif;
   font-size: 1.5vw;
   position: absolute;
   transform: rotate(90deg);
-  top: 8vw;
-  left: 6vw;
+  top: 9vw;
+  left: 5vw;
+  z-index: 1;
 }
 .two {
   left: 50vw;
@@ -76,16 +96,50 @@ body {
   border-width: 2vw;
 }
 
+.flowertwo {
+  height: 2vw;
+  width: 2vw;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 19.8vw;
+  left: 1.5vw;
+  background-color: #EF5594;
+  border-style: solid;
+  border-color: pink;
+  border-width: 1vw;
+}
+
+.highlight {
+    height: 7vw;
+    width: 4vw;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.8vw;
+    left: 7.5vw;
+    background-color: white;
+    transform: rotate(46deg);
+}
+
 .stem {
-  height: 7.2vw;
+    height: 7.2vw;
+    width: 1vw;
+    background-color: darkgreen;
+    position: absolute;
+    left: 8vw;
+    top: -7.3vw;
+    transform: rotate(10deg);
+}
+
+.stemtwo {
+  height: 5.2vw;
   width: 1vw;
   background-color: darkgreen;
   position: absolute;
-  left: 1vw;
-  top: 6.7vw;
-  transform: rotate(10deg);
-
+  left: 4vw;
+  top: -5.1vw;
+  transform: rotate(-10deg);
 }
+
 
 .catbod {
   background-color: beige;
@@ -129,15 +183,157 @@ body {
   left: 2vw;
   background-color: black;}
 
+  .catnose {
+  height: 1.5vw;
+  width: 1.5vw;
+  background-color: maroon;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1.5vw;
+  left: 5vw;
+}
+
+  .catear1 {
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: beige;
+    border-radius: 17%;
+    border-top: .5vw solid black;
+    border-left: .5vw solid black;
+    position: absolute;
+    transform: rotate(-26deg);
+    bottom: 4.5vw;
+    left: -1vw;
+}
+
+  .catear2 {
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: beige;
+    border-radius: 17%;
+    border-top: .5vw solid black;
+    border-left: .5vw solid black;
+    position: absolute;
+    transform: rotate(72deg);
+    bottom: 6.8vw;
+    left: 5vw;
+}
+
+  .catwhiskerone {
+    height: 3.5vw;
+    width: 0.5vw;
+    position: absolute;
+    bottom: -1.5vw;
+    left: 3vw;
+    background-color: black;
+    transform: rotate(55deg);
+  }
+
+  .catwhiskertwo {
+    height: 3.5vw;
+    width: 0.5vw;
+    position: absolute;
+    bottom: -0.5vw;
+    left: 2.5vw;
+    background-color: black;
+    transform: rotate(74deg);
+  }
+
+    .catwhiskerthree {
+    height: 3.5vw;
+    width: 0.5vw;
+    position: absolute;
+    bottom: 2.5vw;
+    left: 7.5vw;
+    background-color: black;
+    transform: rotate(43deg);
+  }
+      .catwhiskerfour {
+    height: 3.5vw;
+    width: 0.5vw;
+    position: absolute;
+    bottom: 1vw;
+    left: 8.5vw;
+    background-color: black;
+    transform: rotate(77deg);
+  }
+
 .camera {
   left: 75vw;
   bottom: 0;
   height: 10vw;
   width: 5vw;
-  background-color: darkgray;
+  background-color: black;
   border-radius: 20%;
   position: absolute;
   border-color: black;
   border-style: solid;
   border-width: .5vw;
+  }
+  .cameralens {
+    left: 80vw;
+    bottom: 2.3vw;
+    height: 5vw;
+    width: 3vw;
+    background-color: black;
+    border-radius: 20%;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: .5vw;
+  }
+
+    .camerabutton {
+    left: 76vw;
+    bottom: 10.3vw;
+    height: 1vw;
+    width: 2vw;
+    background-color: red;
+    border-radius: 20%;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: .5vw;
+  }
+
+  .cloud {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+
+}
+  .uno {
+    bottom: 34vw;
+    left: 35vw;
+    height: 8vw;
+    width: 8vw;
+  }
+
+    .dos {
+      bottom: 32vw;
+      left: 29vw;
+      height: 8vw;
+      width: 8vw;
+  }
+
+    .tres {
+      bottom: 38vw;
+      left: 31vw;
+      height: 8vw;
+      width: 8vw;
+  }
+
+      .quatro {
+    bottom: 32vw;
+    left: 23vw;
+    height: 8vw;
+    width: 8vw;
+  }
+
+
+      .cinco {
+    bottom: 37vw;
+    left: 25vw;
+    height: 8vw;
+    width: 8vw;
   }
