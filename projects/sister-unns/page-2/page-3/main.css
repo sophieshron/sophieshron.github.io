@@ -1,0 +1,60 @@
+/* page 3 css */
+
+
+
+.small-text {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size:1vw;
+  color: white;
+}
+.info {
+  position: absolute;
+  background-color: black;
+  padding: 2vw;
+  position: fixed;
+  z-index: 1;
+}
+a {
+  color: #adfffb;
+}
+.flower-shop {
+  color:magenta;
+}
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size:4vw;
+  font-style: italic;
+
+}
+.body-text {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.4vw;
+  margin-top: 2vw;
+  line-height: 2.5vw;
+}
+
+
+.card {
+    background-color: white;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vw;
+    color: black;
+    max-width: 43vw;
+    text-align: center;
+    padding: 2vw;
+}
+
+.restart {
+  color: magenta;
+}
+
+body {
+
+background-color: black;
+
+}
