@@ -1,25 +1,33 @@
+@font-face {
+  font-family: 'sophie-hall-baudern';
+  src: url('fonts/sophie-hall-baudern-fontlab-1-webfont.woff2') format('woff2'),
+       url('fonts/sophie-hall-baudern-fontlab-1-webfont.woff') format('woff');
+  font-style: normal;
+}
 
 
-
-body {
-    font-size: 40pt;
-    font-family: 'Archivo Black', sans-serif;
+.s {
+    font-size: 21vw;
+    font-family: 'sophie-hall-baudern', sans-serif;
 }
 
 
 /* Dropdown Menu */
 .dropbtn {
-  background-color: black;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  font-family: 'Archivo Black', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 1.5vw;
+    font-size: 3vw;
+    margin-top: 8vw;
+    height: 7vw;
+  
 }
 
 .dropdown {
   position: relative;
   display: flex;
   justify-content: center;
+  font-family: 'roboto', sans-serif;
 }
 
 .dropdown-content {
@@ -75,5 +83,6 @@ body {
 h1 {
   display: flex;
   justify-content: space-around;
+  margin-top: 15vw;
 }
 
