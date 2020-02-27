@@ -1,0 +1,147 @@
+* { box-sizing: border-box }
+
+body {
+  background-color: navy;
+}
+
+@font-face {
+  font-family: 'souvenir';
+  src:url('fonts/SouvenirStd-Demi.woff') format('woff');
+  font-style: normal;
+}
+
+
+.box-white {
+    z-index: 1;
+    padding: 2vw;
+    width: 100vw;
+    margin: auto;
+    background-color: white;
+}
+
+
+.splat-text {
+  text-align: center;
+  position: absolute;
+  font-size: 2.3vw;
+  margin-left: 64vw;
+  margin-top: -25.5vw;
+  z-index: 1;
+  transform: rotate(14deg);
+  font-family: "souvenir";
+}
+
+
+
+.splat {
+  position: absolute;
+  margin-top: -32vw;
+  margin-left: 58vw;
+  width: 29vw;
+  transform: rotate(14deg);
+}
+
+.title {
+
+    font-family: "souvenir";
+    font-size: 7vw;
+    color: yellow;
+    margin-left: 15vw;
+    margin-top: 3vw;
+
+}
+
+h1 {
+  font-size: 17vw;
+  letter-spacing: .7vw;
+  text-shadow: 0 0 1px rgba(0,0,0,.1);
+  margin: 0;
+
+
+}
+
+.animate{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.animate-out:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+
+  background: url(spam2.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.spam {
+
+  background: url(spam-texture.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.text {
+    font-family: "helvetica neue";
+}
+
+.link {
+  color: salmon;
+}
+
+.body {
+  font-size: 2vw;
+}
+.med {
+  font-size: 3vw;
+  font-weight: bold;
+
+
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width:700px) {
+
+   .row {
+    display: block;
+   }
+
+   .body {
+    font-size: 3vw;
+    margin-top: 2vw;
+   }
+
+   }
