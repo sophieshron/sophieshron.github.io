@@ -53,5 +53,20 @@ a {
 body {
     background-color: black;
     margin: 2vw;
+}
+
+
+@media print { 
+  /* All your print styles go here, for example: */
+  .header, 
+  .footer, 
+  .nav { 
+    display: none !important; 
+  .body {
+    background-color: black;
+  }
+
+  }
+
 
 }

@@ -1,0 +1,296 @@
+/* page 1 css */
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'gt-cinetype';
+  src: url('fonts/gt-cinetype-regular-webfont.woff') format('woff');
+       
+  font-style: normal;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+  html {
+    cursor: url(img/money-cursor-01.png), auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img, .nav, a, .texty, .reply:hover {
+  cursor: url(img/hand-cursor-01.png), auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  border: solid black .5vw;
+  margin: auto;
+  position: fixed;
+  width: 97vw;
+  z-index: 1;
+  font-family: "helvetica neue";
+  font-size: 1.75vw;
+  margin-top: -3vw;
+  font-weight: bold;
+  background-color: white;  
+}
+
+.title-container {
+  transform: scale(.85);
+  margin-left: -7vw;
+  margin-top: -3vw;
+}
+.box {
+    border: solid black .5vw;
+    box-shadow: 10px 10px 11px gray;
+    padding: 3vw;
+    margin: auto;
+    margin-top: 8vw;
+}
+
+.gray {
+    margin-left: 7vw;
+    width: 56vw;
+    background-color: lightgray;
+  }
+
+.intro {
+  margin-top: 29vw;
+}
+
+.main {
+  font-weight: bold;
+}
+
+.pink {
+  background-color: #FF57AF;
+  z-index: 1;
+  width: 90vw;
+  justify-content: center;
+  margin-top: 2vw;
+  position: absolute;
+  margin-left: -8vw;
+}
+
+.med-title {
+  font-family: "helvetica neue";
+  font-size: 2vw;
+}
+
+.question {
+  font-family: "helvetica neue";
+  font-size: 5.5vw;
+  font-weight: bold;
+}
+
+.body {
+    font-family: "helvetica neue";
+    font-size: 1.75vw;
+    margin-top: 2vw;
+}
+
+.int-title {
+  font-family: "helvetica neue";
+  font-size: 5.5vw;
+  font-weight: bold;
+}
+.int-body {
+    font-family: "helvetica neue";
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+.int-q {
+    font-family: "helvetica neue";
+    font-size: 1.75vw;
+    margin-top: 2vw;
+    font-weight: bold;
+}
+
+
+.title {
+  font-family: "helvetica neue";
+  font-size: 7vw;
+  color: white;
+  font-weight: bold;
+}
+
+.cinetype {
+  font-family: "gt-cinetype";
+  font-size: 3vw;
+  color: white;
+}
+
+.texty {
+    background-color: #00B7F0;
+    width: 48vw;
+    margin-left: 18vw;
+}
+.reply {
+    background-color: lightgray;
+    width: 40vw;
+    margin-left: 41vw;
+}
+
+.star {
+    margin-top: -29vw;
+    z-index: 1;
+    -webkit-filter: drop-shadow(10px 10px 11px grey);
+    filter: drop-shadow(10px 10px 11px black);
+    position: absolute;
+    width: 28vw;
+    margin-left: 49vw;
+    transform: rotate(38deg);
+}
+
+.phone {
+    margin-top: -20.5vw;
+    z-index: 1;
+    position: absolute;
+    width: 11vw;
+    margin-left: 58vw;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+
+.flash {
+    margin-top: -21.5vw;
+    z-index: 1;
+    position: absolute;
+    width: 6vw;
+    margin-left: 58vw;
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.project {
+  background-color: yellow;
+  float: right;
+}
+
+.tiffany {
+  background-color: #FF57AF;
+  float: left;
+}
+
+.mlm {
+  background-color: #27FF40;
+  float: right;
+}
+
+.project, .tiffany, .mlm {
+    width:45vw;
+}
+
+.boxes-container {
+    width: 76vw;
+    margin: auto;
+}
+
+.interview-container {
+    width: 100vw;
+    background-color: ;
+    margin: none;
+    padding:3vw;
+    background-color: white;
+    margin-top: 2vw;
+
+}
+
+.interview-text-container {
+    margin: auto;
+    width: 45vw;
+    padding-top: 10vw;
+
+  }
+
+  .emoji {
+    width: 4vw;
+  }
+
+  .eyes {
+    position: absolute;
+    margin-left: -4vw;
+    margin-top: -0.1vw;
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+  .img {
+    float: left;
+    margin: 1vw;
+    margin-right: 2vw;
+    background-color: lightgray;
+  }
+
+  .img-top {
+    margin: 1vw;
+    margin-top: 34vw;
+    margin-left: 3vw;
+    position: absolute;
+    margin-right: 0vw;
+    background-color: lightgray;  }
+
+  .skinny-tea {
+    width: 23vw;
+  }
+
+@media (max-width:700px) {
+
+
+   }
+
+
+@media print { 
+  
+  .reply  { 
+    page-break-after: always;
+  }
+
+.ferguson  { 
+        page-break-before: always;
+
+  }
+
+.nav {
+  display: none;
+}
+   
+   
+
+  
+}
+
+
+
+
+
