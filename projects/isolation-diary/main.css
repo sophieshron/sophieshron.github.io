@@ -1,0 +1,66 @@
+.img {
+  width: 24vw;
+  padding: .3vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+    }
+
+.header-container {
+    width: 37.5vw;
+    margin: auto;
+    border: .3vw solid;
+    margin-bottom: 4vw;
+    margin-top: 4vw; 
+    padding: 2vw; 
+  }
+
+.nav-container {
+  display: flex;
+  width: 37.5vw;
+  margin: auto;
+  justify-content: space-around;
+  padding-bottom: 4vw;
+}
+
+.title {
+    font-size: 3.5vw;
+    margin-bottom: 1vw;
+}
+
+.subtitle {
+  font-size: 2vw;
+}
+
+.gallery {
+  color: white;
+  background-color: black;
+  font-size: 2vw;
+  padding: 1vw;
+}
+
+.explore {
+  color: black;
+  border: .3vw solid;
+  font-size: 2vw;
+  padding: 1vw;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.text {
+  font-family: 'helvetica'; 
+  font-weight: bold;
+}
+
+
+
+
+   

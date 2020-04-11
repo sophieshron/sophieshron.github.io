@@ -265,7 +265,14 @@ a:hover {
   }
 
 @media (max-width:700px) {
+.boxes-container {
+  width: 95vw;
 
+}
+
+.interview-text-container {
+  width: none;
+}
 
    }
 

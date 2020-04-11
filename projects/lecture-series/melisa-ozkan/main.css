@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'termina';
+  src: url('fonts/terminabold.woff') format('woff');     
+  font-style: normal;
+}
+
+body {
+  
+    margin: 0;
+    margin-top: -13vw;
+    border: 1vw solid;
+    transform: scale(.50);
+    animation: grow linear infinite 1s ;
+    animation-play-state: paused;
+
+}
+
+body:hover {
+  animation-play-state: running;
+}
+
+@keyframes grow{
+    0%{}
+
+    50%{ transform: scale(.52) }
+}
+
+.termina {
+  font-family: 'termina';
+}
+
+.helvetica {
+    font-family: 'helvetica';
+    font-size: 3vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2vw;
+    border-bottom: 1vw solid;
+}
+
+.times {
+  font-family: 'times';
+  font-style: italic;
+}
+
+.row-one {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFB00;
+    line-height: 9vw;
+}
+
+@keyframes blinkingText{
+    0%{ color: #FFFB00;      }
+    33%{ color: #FF8A8C;      }
+    90%{ color: #00A4FF;      }
+    100%{ color:#00DC9E;   }
+}
+
+.col-one {
+    padding: 0vw;
+    font-size: 8.8vw;
+}
+
+.ci-alumni {
+    border-right: 1vw solid;
+    background-color: #FF8A8C;
+    font-weight: bold;
+    width: 100%;
+}
+
+.row-two {
+    line-height: 9vw;
+    font-size: 8.7vw;
+    text-align: center;
+    border-top: 1vw solid;
+    background-color: #00DC9E;
+
+}
+
+.row-three {
+    line-height: 15vw;
+    font-size: 17vw;
+    text-align: center;
+    border-bottom: 1vw solid;
+    border-top: 1vw solid;
+    
+}
+
+
+
+.row-four {
+    font-size: 5vw;
+    column-gap: 17vw;
+    column-count: 3;
+    text-align: center;
+    background-color: #00A4FF;
+    border-bottom: 1vw solid;
+
+}
+
+.row-six {
+    font-size: 3vw;
+    column-gap: 17vw;
+    column-count: 3;
+    text-align: center;
+}
+
+.thursday {
+  background-color: #00A4FF;
+  padding-left: 1vw;
+}
+
+.april {
+    background-color: #FF74EA;
+    width: 36.3vw;
+    border-left: 1vw solid;
+    border-right: 1vw solid;
+    z-index: 1;
+}
+
+.year {
+    background-color: #FFFB00;
+    letter-spacing: .5vw;
+    padding-bottom: 0.2vw;
+}
+
+.coming-up {
+  width: 38vw;
+  padding-left: 1vw;
+}
+
+.paula {
+    padding-bottom: 0.3vw;
+    width: 26.3vw;
+    border-left: black 1vw solid;
+    border-right: black 1vw solid;
+    z-index: 1;
+    font-weight: bold;
+
+}
+
+.madison {
+    padding-bottom: 0.2vw;
+    font-weight: bold;
+    width: 28vw;
+    margin-left: -8vw;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+

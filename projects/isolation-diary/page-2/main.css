@@ -1,0 +1,76 @@
+
+.img {
+  width: 30vw;
+  padding: .3vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+    }
+
+.header-container {
+    width: 37.5vw;
+    margin: auto;
+    border: .3vw solid;
+    margin-bottom: 4vw;
+    margin-top: 4vw; 
+    padding: 2vw; 
+  }
+
+.nav-container {
+  display: flex;
+  width: 37.5vw;
+  margin: auto;
+  justify-content: space-around;
+  padding-bottom: 4vw;
+}
+
+.title {
+    font-size: 3.5vw;
+    margin-bottom: 1vw;
+}
+
+.subtitle {
+  font-size: 2vw;
+}
+
+.gallery {
+  color: black;
+  font-size: 2vw;
+  padding: 1vw;
+  border: .3vw solid;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.explore {
+  color: white;
+  background-color: black;
+  font-size: 2vw;
+  padding: 1vw;
+}
+
+.text {
+  font-family: 'helvetica'; 
+  font-weight: bold;
+}
+
+.index-column {
+  padding: 2vw;
+  column-count: 2;
+  column-width: 1;
+  column-gap: 2vw;
+}
+
+.small {
+  padding: .5vw;
+}
+
+
+
+   
