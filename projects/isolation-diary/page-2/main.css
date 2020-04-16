@@ -1,12 +1,35 @@
 
-.img {
+.aj-img {
   width: 30vw;
   padding: .3vw;
+}
+
+.one {
+  top:0;
+  left:0;
+}
+
+.img {
+  left: 10vw;
+  position: absolute;
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+  z-index: 1;
+  left: 10vw;
+  position: absolute;
+  width: 30vw;
+  padding: .3vw;
+
 }
 
 .container {
   display: flex;
   justify-content: center;
+  width: 90vw;
+  margin: auto;
     }
 
 .header-container {
@@ -62,13 +85,17 @@ a {
 
 .index-column {
   padding: 2vw;
+  padding-top: 5vw;
   column-count: 2;
   column-width: 1;
   column-gap: 2vw;
+  width: 45.5vw;
 }
 
 .small {
   padding: .5vw;
+  font-size: 1vw;
+
 }
 
 
