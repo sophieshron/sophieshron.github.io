@@ -1,6 +1,20 @@
 
+html:hover {
+    cursor: url(img/cursor.png), auto; 
+}
+
+#index:hover {
+    cursor: url(img/hand-cursor-01.png), auto; 
+}
+
+
+.lightbox {
+      margin: auto;
+    width: 40vw;
+}
+
 .aj-img {
-  width: 30vw;
+  width: 40vw;
   padding: .3vw;
 }
 
@@ -16,20 +30,18 @@
 }
 
 .show {
-  visibility: visible;
-  z-index: 1;
-  left: 10vw;
-  position: absolute;
-  width: 30vw;
-  padding: .3vw;
-
+    visibility: visible;
+    z-index: 1;
+    margin-left: 20vw;
+    margin-top: -40.9vw;
+    position: absolute;
+    width: 40vw;
+    padding: .3vw;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  width: 90vw;
-  margin: auto;
+    width: 90vw;
+    margin: auto;
     }
 
 .header-container {
@@ -84,18 +96,21 @@ a {
 }
 
 .index-column {
-  padding: 2vw;
-  padding-top: 5vw;
-  column-count: 2;
-  column-width: 1;
-  column-gap: 2vw;
-  width: 45.5vw;
+    column-count: 3;
+    column-width: 1;
+    column-gap: 2vw;
+    padding-top: 4vw;
 }
 
 .small {
   padding: .5vw;
-  font-size: 1vw;
+  font-size: 2vw;
+}
 
+.small:hover {
+  text-decoration: underline;
+  color: blue;
+  
 }
 
 

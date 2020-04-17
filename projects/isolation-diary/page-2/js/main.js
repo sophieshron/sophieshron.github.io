@@ -2,6 +2,12 @@ var myName = 'plz work';
 
 console.log (myName);
 
+$("#index").click(function(){
+  console.log ('click');
+  $('html,body').scrollTop(370);
+});
+
+$('html,body').scrollTop(0);
 
 $("#index-one").click(function(){
   console.log ('click');
