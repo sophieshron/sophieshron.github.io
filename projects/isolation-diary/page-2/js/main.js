@@ -4,7 +4,7 @@ console.log (myName);
 
 $("#index").click(function(){
   console.log ('click');
-  $('html,body').scrollTop(370);
+  $('html,body').scrollTop(400);
 });
 
 $('html,body').scrollTop(0);
