@@ -1,10 +1,6 @@
 
-html:hover {
-    cursor: url(img/cursor.png), auto; 
-}
-
 #index:hover {
-    cursor: url(img/hand-cursor-01.png), auto; 
+    cursor: pointer; 
 }
 
 
@@ -96,15 +92,16 @@ a {
 }
 
 .index-column {
-    column-count: 3;
+   column-count: 4;
     column-width: 1;
-    column-gap: 2vw;
+    column-gap: 4vw;
     padding-top: 4vw;
+
 }
 
 .small {
   padding: .5vw;
-  font-size: 2vw;
+  font-size: 1.4vw;
 }
 
 .small:hover {
@@ -112,6 +109,84 @@ a {
   color: blue;
   
 }
+
+@media (max-width:700px) {
+  
+.index-column {
+   column-count:1 ;
+    column-width: 1;
+    column-gap: 4vw;
+    padding-top: 4vw;
+
+}
+
+.small{
+ font-size: 16px;
+ padding: 2vw;
+ margin:auto;
+}
+
+.title {
+   font-size: 6vw;
+
+}
+
+.header-container {
+  width: 80.5vw;
+    margin: auto;
+    border: .3vw solid;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+    padding: 2vw;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.explore {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 1.5vw;
+}
+
+.gallery {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    padding: 1.5vw;
+}
+
+.nav-container {
+    display: flex;
+    width: 69.5vw;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 4vw;
+}
+
+.lightbox {
+      margin: auto;
+    width: 62vw;
+}
+
+.aj-img {
+  width: 62vw;
+}
+
+.show {
+    visibility: visible;
+    z-index: 1;
+    margin-left: 9.2vw;
+    margin-top: -62.9vw;
+    position: absolute;
+    width: 62vw;
+}
+
+}
+
+
 
 
 

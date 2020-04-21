@@ -66,5 +66,62 @@ a {
 
 
 
+@media (max-width:700px) {
+  
+.title {
+   font-size: 6vw;
+
+}
+
+.header-container {
+  width: 80.5vw;
+    margin: auto;
+    border: .3vw solid;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+    padding: 2vw;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.explore {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 1.5vw;
+}
+
+.gallery {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    padding: 1.5vw;
+      border: .3vw solid;
+
+
+}
+
+.nav-container {
+    display: flex;
+    width: 69.5vw;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 4vw;
+}
+
+
+
+
+}
+
+
+
+
+
+   
+
+
 
    
