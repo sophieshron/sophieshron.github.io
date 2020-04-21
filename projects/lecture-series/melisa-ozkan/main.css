@@ -7,7 +7,7 @@
 body {
   
     margin: 0;
-    margin-top: -13vw;
+    margin-top: -7vw;
     border: 1vw solid;
     transform: scale(.50);
     animation: grow linear infinite 1s ;
