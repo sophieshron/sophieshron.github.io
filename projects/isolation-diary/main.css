@@ -41,8 +41,10 @@
 }
 
 .gallery {
-  color: white;
-  background-color: black;
+  color: blue;
+  text-decoration: underline;
+  background-color: white;
+  border: .3vw solid black;
   font-size: 2vw;
   padding: 1vw;
 }
@@ -53,7 +55,12 @@
   border: .3vw solid;
   font-size: 2vw;
   padding: 1vw;
+}
 
+.explore:hover {
+     color: blue;
+    text-decoration: underline;
+    border: .3vw solid black;
 }
 
 a {
@@ -68,6 +75,23 @@ a {
 }
 
 
+
+.small:hover {
+  text-decoration: underline;
+  color: blue;
+  
+}
+
+.small{
+    padding: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+  }
+
+a {
+  color: black;
+}
 
 @media (max-width:700px) {
   
@@ -110,6 +134,7 @@ a {
 }
 
 }
+
 
 
 

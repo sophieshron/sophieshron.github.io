@@ -2,15 +2,15 @@ var myName = 'plz work';
 
 console.log (myName);
 
-$("#index").click(function(){
+$(".jump").click(function(){
   console.log ('click');
-  $('html,body').scrollTop(400);
+  $('html,body').scrollTop(1);
 });
 
 $('html,body').scrollTop(0);
 
 
-$('.small').click(function() {
+$('.small').hover(function() {
   var small = $(this); // this particular text we clicked
   var id = small.data('id'); // get the id of this text from the data-attribute
   var img = $('.img[data-id="' + id + '"]'); // find the matching text element by passing in the id
