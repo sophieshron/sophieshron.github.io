@@ -7,10 +7,22 @@
 body {
   
     margin: 0;
-    margin-top: -13vw;
+    margin-top: -7vw;
     border: 1vw solid;
     transform: scale(.50);
+    animation: grow linear infinite 1s ;
+    animation-play-state: paused;
 
+}
+
+body:hover {
+  animation-play-state: running;
+}
+
+@keyframes grow{
+    0%{}
+
+    50%{ transform: scale(.52) }
 }
 
 .termina {
@@ -34,7 +46,7 @@ body {
 .row-one {
     display: flex;
     justify-content: space-around;
-    background-color: #FFFB00;
+    background-color: #FFEC00;
     line-height: 9vw;
 
 }
@@ -46,7 +58,7 @@ body {
 
 .ci-alumni {
     border-right: 1vw solid;
-    background-color: #FF8A8C;
+    background-color: #966CF2;
     font-weight: bold;
     width: 100%;
 }
@@ -56,7 +68,7 @@ body {
     font-size: 8.5vw;
     text-align: center;
     border-top: 1vw solid;
-    background-color: #00DC9E;
+    background-color: #FF69A3;
 }
 
 .row-three {
@@ -72,7 +84,7 @@ body {
     column-gap: 17vw;
     column-count: 3;
     text-align: center;
-    background-color: #00A4FF;
+    background-color: #3A7CFF;
     border-bottom: 1vw solid;
 }
 
@@ -84,12 +96,12 @@ body {
 }
 
 .thursday {
-  background-color: #00A4FF;
+  background-color: #3A7CFF;
   padding-left: 1vw;
 }
 
 .april {
-    background-color: #FF74EA;
+    background-color: #44D7B6;
     width: 36.3vw;
     border-left: 1vw solid;
     border-right: 1vw solid;
@@ -97,7 +109,7 @@ body {
 }
 
 .year {
-    background-color: #FFFB00;
+    background-color: #FF69A3;
     letter-spacing: .5vw;
     padding-bottom: 0.2vw;
 }
