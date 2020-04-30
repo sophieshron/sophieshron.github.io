@@ -16,7 +16,6 @@
 
 .med {
     font-size: 2vw;
-    font-style: italic;
     text-decoration: underline;
     padding: .5vw;
 }
@@ -32,11 +31,16 @@
 .title {
     font-size: 6vw;
     text-align: center;
-    font-style: italic;
+}
+
+.text {
+  font-family: 'Playfair Display', serif;
+  font-weight: medium;
+  font-style: italic;
 }
 
 .footer-nav {
-  margin-top: 7vw;
+  margin-top: 5.5vw;
   background-color: white;
   display:flex;
   justify-content: space-around;
