@@ -1,0 +1,55 @@
+#container {
+  margin: auto;
+  height: 34vw;
+}
+
+.width {
+  width: 45vw;
+} 
+
+#videoElement {
+}
+
+.header-nav {
+  background-color: white;
+}
+
+.med {
+    font-size: 2vw;
+    font-style: italic;
+    text-decoration: underline;
+    padding: .5vw;
+}
+
+.gold-frame {
+    position: absolute;
+    width: 54vw;
+    margin-left: -50vw;
+    margin-top: -3.5vw;
+    z-index: 1;
+}
+
+.title {
+    font-size: 6vw;
+    text-align: center;
+    font-style: italic;
+}
+
+.footer-nav {
+  margin-top: 7vw;
+  background-color: white;
+  display:flex;
+  justify-content: space-around;
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+  background-image: url("img/tulip-bg.png");
+}
+
+   
+
+
+
+   
