@@ -124,7 +124,9 @@ if (navigator.mediaDevices.getUserMedia) {
 }
 //video stream end
 
+//mobile 
 
+//mobile end
 
 
 

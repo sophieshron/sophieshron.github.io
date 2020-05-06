@@ -161,6 +161,10 @@ padding-top: 1vw;
 justify-content: space-around;
 }
 
+#mobile {
+  visibility: hidden;
+}
+
 
 
 
@@ -174,16 +178,35 @@ and (max-device-width : 800px) {
   #desktop {
     display: none;
   }
+  #mobile {
+    visibility: visible;
+  }
+
   body {
     background-image: none;
     margin:3vw;
+    text-align: center;
   }
 
   a {
-    font-size:16px;
-    font-family: "Playfair";
-    color: hotpink;
-    text-align: center;
+    font-size:45pt;
+    font-family: "avenir", sans-serif;
+    color: black;
+    text-decoration: none;  
+  }
+
+  #mobile-title {
+    font-size: 70pt;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  #mobile-mirror {
+    margin: auto;
+    width: 50vw;
+    margin-bottom: 3vw;
+
   }
 }
 
