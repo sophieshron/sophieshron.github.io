@@ -27,21 +27,40 @@
     position: absolute;
     width: 54vw;
     margin-left: -50vw;
-    margin-top: -3.5vw;
+    margin-top: -2.5vw;
     z-index: 1;
 }
 
 .circle-mirror {
     position: absolute;
-    width: 38vw;
+    width: 82vw;
+    margin-left: -21vw;
+    margin-top: -9.5vw;
+    visibility: hidden;
+}
+
+.pink-mirror {
+    position: absolute;
+    width: 41.4vw;
+    margin-left: 1vw;
     margin-top: -3.5vw;
     visibility: hidden;
 }
 
+.rounded-crop {
+    width: 35vw;
+    height: 25vw;
+    margin-left: 4.5vw;
+    margin-top: 0vw;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 12%;
+}
+
 .circle-crop {
-    width: 19vw;
-    height: 21vw;
-    margin-left: 11.5vw;
+    width: 35vw;
+    height: 40vw;
+    margin-left: 3.5vw;
     margin-top: 1vw;
     position: absolute;
     object-fit: cover;
@@ -106,6 +125,8 @@ body {
     margin-left: 14vw;
     visibility: hidden;
     z-index: 1;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
 
 }
 
@@ -118,6 +139,8 @@ body {
     margin-left: 62vw;
     visibility: hidden;
     z-index: 1;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
 }
 
 .visible {
@@ -136,6 +159,32 @@ img {
 display: flex;
 padding-top: 1vw;
 justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 800px) {
+  #desktop {
+    display: none;
+  }
+  body {
+    background-image: none;
+    margin:3vw;
+  }
+
+  a {
+    font-size:16px;
+    font-family: "Playfair";
+    color: hotpink;
+    text-align: center;
+  }
 }
 
 

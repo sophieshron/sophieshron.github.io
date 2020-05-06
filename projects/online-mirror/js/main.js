@@ -41,6 +41,9 @@ $(function() {
     $('#circle-mirror-frame').addClass("visible");
     $('#videoElement').addClass("circle-crop");       
     $('#gold-frame').addClass("hidden");
+    $('#pink-mirror-frame').addClass("hidden");
+    $('#videoElement').removeClass("rounded-crop");
+
   });
 });
 //mirror change circle end
@@ -52,9 +55,26 @@ $(function() {
     $('#gold-frame').removeClass("hidden");
     $('#circle-mirror-frame').removeClass("visible");       
     $('#videoElement').removeClass("circle-crop");
+    $('#videoElement').removeClass("rounded-crop");
+    $('#pink-mirror-frame').addClass("hidden");
+
   });
 });
 //mirror change gold end
+
+//mirror change pink
+$(function() {
+  $('#pink-mirror').click(function() {
+    console.log("click pink");
+    $('#pink-mirror-frame').addClass("visible");
+    $('#pink-mirror-frame').removeClass("hidden");
+    $('#circle-mirror-frame').removeClass("visible"); 
+    $('#gold-frame').addClass("hidden");      
+    $('#videoElement').removeClass("circle-crop");
+    $('#videoElement').addClass("rounded-crop");
+  });
+});
+//mirror change pink end
 
 //POPUPS
 //popup bg

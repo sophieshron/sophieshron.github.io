@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ginger';
+  src: url('fonts/ginger-regular.woff') format('woff');
+  font-style: normal;
+}
+
+.title {
+  font-family: 'ginger';
+}
+
+
