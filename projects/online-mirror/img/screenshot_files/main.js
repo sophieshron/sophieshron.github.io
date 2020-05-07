@@ -1,21 +1,14 @@
 //screenshot
 
-//gallery menu
-$(function() {
-  $('.camera').click(function() {
-    $('.gallery-pop-container').toggleClass("visible");
-  });
-});
-
-
 
 $(function() {
-  $('.gallery-pop-x').click(function() {
-    console.log("click x");
-    $('.gallery-pop-container').removeClass("visible");
+  $('button').click(function() {
+    console.log("click button");
+    html2canvas(document.querySelector("#desktop")).then(canvas => {
+    document.body.appendChild(canvas)
+});
   });
 });
-
 
 
 //BACKGROUND change tulip

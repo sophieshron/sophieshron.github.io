@@ -5,14 +5,8 @@
 
 .width {
   width: 45vw;
-} 
 
-.camera {
-    cursor:pointer;
-    width: 2.5vw;
-    margin: 1vw;
-    position: absolute;
-}
+} 
 
 #videoElement {
     -webkit-transform: scaleX(-1);
@@ -29,57 +23,12 @@
     padding: .5vw;
 }
 
-.gallery-pop-container {
-    background-color: white;
-    border: .3vw black solid;
-    position: absolute;
-    padding: 1vw;
-    margin-left: 4vw;
-    z-index: 1;
-    visibility: hidden;
-}
-.gallery-pop-x {
-    cursor:pointer;
-    position: absolute;
-    z-index: 1;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-left: 18vw;
-
-}
-
-.gallery-pop-text {
-    font-family: sans-serif;
-    font-size: 1vw;
-    line-height: 2vw;
-    padding: 1vw;
-    padding-top: 2vw;
-}
-.gallery-pop-text-large {
-  font-weight: bold;
-}
-
-a {
-  color:black;
-}
-
-a:hover {
-  color:magenta;
-}
-
-.med:hover {
-  color:magenta;
-}
-
-.gallery-pop-x:hover {
-  color:magenta;
-}
-
 .gold-frame {
     position: absolute;
     width: 54vw;
     margin-left: -50vw;
     margin-top: -2.5vw;
+    
 }
 
 .circle-mirror {
@@ -138,7 +87,6 @@ body {
 }
 
 .menu {
-    cursor:pointer;
     display: flex;
     justify-content: space-around;
     justify-content: white;
@@ -150,7 +98,6 @@ body {
 }
 
 .pop-menu {
-    cursor:pointer;
     display: flex;
     justify-content: space-around;
     justify-content: white;
@@ -235,7 +182,11 @@ justify-content: space-around;
   z-index: 1;
 }
 
+canvas {
+  max-height: 50%;
+  max-width: 50%;
 
+}
 
 
 
