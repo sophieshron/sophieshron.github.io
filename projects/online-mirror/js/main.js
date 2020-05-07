@@ -76,6 +76,7 @@ $(function() {
 });
 //mirror change pink end
 
+
 //POPUPS
 //popup bg
 $(function() {
@@ -105,8 +106,98 @@ $(function() {
   });
 });
 //endpopup mirror
+
+//popup stickers
+$(function() {
+  $('#stickers').hover(function() {
+    $('#stickers-pop').toggleClass('visible');
+  });
+});
+
+$(function() {
+  $('#stickers-pop').hover(function() {
+    $('#stickers-pop').toggleClass('visible');
+  });
+});
+//endpopup stickers
 //END POPUPS
 
+
+
+
+//dragables
+$( function() {
+    $( "#dove-sticker" ).draggable();
+  } );
+
+$( function() {
+    $( "#bubble-sticker" ).draggable();
+  } );
+
+$( function() {
+    $( "#rose-sticker" ).draggable();
+  } );
+
+$( function() {
+    $( "#cloud-sticker" ).draggable();
+  } );
+
+$( function() {
+    $( "#pearl-sticker" ).draggable();
+  } );
+
+$( function() {
+    $( "#tiara-sticker" ).draggable();
+  } );
+//
+
+//add stickers
+
+
+$(function() {
+  $('#rose-button').click(function() {
+    console.log("click rose");
+    $('#rose-sticker').removeClass("hidden");
+  });
+});
+
+$(function() {
+  $('#cloud-button').click(function() {
+    console.log("click cloud");
+    $('#cloud-sticker').removeClass("hidden");
+  });
+});
+
+$(function() {
+  $('#tiara-button').click(function() {
+    console.log("click tiara");
+    $('#tiara-sticker').removeClass("hidden");
+  });
+});
+
+$(function() {
+  $('#pearl-button').click(function() {
+    console.log("click pearl");
+    $('#pearl-sticker').removeClass("hidden");
+  });
+});
+
+$(function() {
+  $('#dove-button').click(function() {
+    console.log("click dove");
+    $('#dove-sticker').removeClass("hidden");
+  });
+});
+
+$(function() {
+  $('#bubble-button').click(function() {
+    console.log("click bubble");
+    $('#bubble-sticker').removeClass("hidden");
+  });
+});
+
+
+//add stickers end
 
 
 

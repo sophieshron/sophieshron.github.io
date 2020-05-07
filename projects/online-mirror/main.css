@@ -28,7 +28,7 @@
     width: 54vw;
     margin-left: -50vw;
     margin-top: -2.5vw;
-    z-index: 1;
+    
 }
 
 .circle-mirror {
@@ -87,56 +87,52 @@ body {
 }
 
 .menu {
-  background-color: white;
+    display: flex;
+    justify-content: space-around;
+    justify-content: white;
     position: fixed;
     width: 100vw;
+    background-color: white;
     height: calc(100% - 40px);
     top: calc(100% - 40px);
-    transition: top 0.4s ease-in-out;
 }
 
-  .menu-inner {
-    position: relative;
-    width: 100%;
-    height: calc(100% - 40px);
-  }
+.pop-menu {
+    display: flex;
+    justify-content: space-around;
+    justify-content: white;
+    position: fixed;
+    width: 100vw;
+    margin-top: -5vw;
+    top: calc(100% - 40px);
+}
 
-  .menu-item {
-    position: absolute;
-    width: 50vw;
-    padding: 1vw;
-    text-align: center;
-  }
-
-  .mirror {
-    right:0;
-  }
-
-   .background {
-    left:0;
-  }
+  
 
 .background-pop {
     background-color: white;
     width: 24vw;
     height: 5vw;
-    position: absolute;
-    margin-top: -5vw;
-    margin-left: 14vw;
     visibility: hidden;
     z-index: 1;
     border-top-left-radius: 1vw;
     border-top-right-radius: 1vw;
+}
 
+.stickers-pop {
+    background-color: white;
+    width: 24vw;
+    height: 5vw;
+    visibility: hidden;
+    z-index: 1;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
 }
 
 .mirror-pop {
     background-color: white;
     width: 24vw;
     height: 5vw;
-    position: absolute;
-    margin-top: -5vw;
-    margin-left: 62vw;
     visibility: hidden;
     z-index: 1;
     border-top-left-radius: 1vw;
@@ -166,6 +162,25 @@ justify-content: space-around;
 }
 
 
+.hidden {
+    visibility: hidden;
+}
+
+#tiara-sticker, #dove-sticker, #bubble-sticker, #rose-sticker, #cloud-sticker {
+    width: 10vw;
+    position: absolute;
+    margin-top: -17vw;
+    margin-left: 66vw;
+    z-index: 1;
+}
+
+#pearl-sticker {
+  width:13vw;
+  position: absolute;
+  margin-top: -17vw;
+  margin-left: 66vw;
+  z-index: 1;
+}
 
 
 
