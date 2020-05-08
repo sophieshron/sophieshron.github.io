@@ -120,11 +120,15 @@ a:hover {
 .title {
     font-size: 6vw;
     text-align: center;
+    letter-spacing: .1vw;
+    font-family: 'Playfair Display', serif;
+
 }
 
 .text {
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
+  padding-top: .7vw;
+  font-family: serif;
+  font-weight: ;
   font-style: italic;
 }
 
