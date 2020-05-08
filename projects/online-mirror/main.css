@@ -201,7 +201,7 @@ body {
 }
 
 img {
-  width:3.5vw;
+  width:3vw;
 }
 
 #image-container {
@@ -219,7 +219,7 @@ justify-content: space-around;
     visibility: hidden;
 }
 
-.tiara-sticker, .dove-sticker, .bubble-sticker, .rose-sticker, .cloud-sticker {
+.goldfish-sticker, .tiara-sticker, .dove-sticker, .bubble-sticker, .rose-sticker, .cloud-sticker {
     width: 10vw;
     position: absolute;
     margin-top: -17vw;

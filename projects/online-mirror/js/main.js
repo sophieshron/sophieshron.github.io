@@ -203,6 +203,16 @@ $(function() {
     $('.pearl-sticker').draggable();
   });
 });
+
+$(function() {
+  $('#goldfish-button').click(function() {
+    console.log("click goldfish");
+    // Use class names for the stickers instead of IDs. 
+    // You can only have 1 unique ID per page. classes don't have this limitation.
+    $('body').append('<img class="goldfish-sticker" src="img/goldfish.png">');
+    $('.goldfish-sticker').draggable();
+  });
+});
 // add stickers end
 
 
