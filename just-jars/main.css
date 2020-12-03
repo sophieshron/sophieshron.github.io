@@ -11,7 +11,7 @@
 
 ::selection {
   background: none;
-  color: blue;
+  color: #F090D8;
 }
 
 *, *::before, *::after {
@@ -34,7 +34,7 @@ a, img {
 
 
 body {
-  
+
   margin: 0;
   font-family: 'gt-eesti', sans-serif;
 
@@ -79,11 +79,13 @@ body {
 /* navigation styles start here */
 
 header {
+  padding-top: 10vw;
   background: var(--background);
   text-align: center;
   z-index: 999;
   width: 100%;
   padding: 1vw;
+  position: fixed;
   border-bottom: .1vw solid black;
 }
 
@@ -147,7 +149,6 @@ nav {
 }
 
 nav ul {
-  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -163,6 +164,8 @@ nav a {
   font-size: 1.2rem;
   text-transform: uppercase;
   opacity: 0;
+  transition: opacity 150ms ease-in-out;
+
 }
 
 .hover:hover {
@@ -180,7 +183,7 @@ nav a {
 }
 
 .hero-container {
-margin-top: 10vw;
+padding-top: 10vw;
 display: flex;
 justify-content: space-around;
 }
@@ -199,14 +202,16 @@ h3 {
 }
 
 .shop-btn {
-  background-color: #F090D8;
+  cursor: url('img/onion-cursor.png'), auto;
+  background-color: yellow;
   border-radius: 3vw;
   width: 7vw;
   text-align:center;
   padding: .1vw;
   font-size:2vw;
   border: .1vw solid black;
-  
+  color: black;
+  text-decoration: underline;
 }
 
 .shop-btn:hover {
@@ -231,6 +236,7 @@ h3 {
   }
 
   header {
+    position: fixed;
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
@@ -271,10 +277,48 @@ h3 {
     opacity: 1;
     position: relative;
   }
-  
+
 
   
   nav a:hover::before {
     transform: scale(1,1);
   }
+
+  main {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  main {
+    margin: 4vw;
+    position: absolute;
+    
+
+  }
+.hero-container {
+  display: block;
+}
+   .pickles {
+    width: 5.5vw;
+    margin-left: 10vw;
+  }
+
+.logo {
+  width: 55vw;
+    margin-right: 10vw;
+}
+
+h3 {
+  font-size: 4vw;
+}
+
+h1 {
+  font-size: 6vw;
+  padding-top: 2vw;
+  margin-bottom: 0vw;
+}
+
+
 }

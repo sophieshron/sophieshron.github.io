@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <link rel="icon" type="image/png" href="">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="js/paper-full.min.js"></script>
+  <script type="text/paperscript" canvas="canvas">
+
+   var myPath = new Path();
+
+   function onMouseDown(event){
+    myPath = new Path();
+    myPath.strokeColor = 'black';
+    myPath.strokeWidth = 1;
+ }
+
+ function onMouseDrag(event){
+    myPath.add(event.point);
+ }
+
+    tool.onKeyDown = function(event){
+      if (event.key == 'r'){
+        myPath.strokeColor = 'red';
+    }
+      if (event.key == 'g'){
+        myPath.strokeColor = 'lime';
+    }
+      if (event.key == 'b'){
+        myPath.strokeColor = 'blue';
+    }
+      if (event.key == 'y'){
+        myPath.strokeColor = 'gold';
+    }
+      if (event.key == 'p'){
+        myPath.strokeColor = 'magenta';
+    }
+      if (event.key == 'o'){
+        myPath.strokeColor = 'darkorange';
+    }
+  }
+  </script>
+
+  <title>The USPS For Kids</title>
+<head>
+
+</head>
+
+<body>
+    <img class="img" id="cover" src="img/cover.jpg"></img>
+
+    <a href="page-1/index.html">
+         <img class= "right" alt="arrow" src="img/arrow-right.png">
+      </a>
+
+  <canvas id="canvas" resize>
+
+  </canvas>
+
+
+
+</body>
+
+
+</html>
