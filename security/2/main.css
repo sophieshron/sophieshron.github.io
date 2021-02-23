@@ -1,0 +1,22 @@
+* {
+ margin:0; padding:0; box-sizing:border-box; 
+}
+
+
+img {
+  width: 100vw;
+  position: absolute;
+  
+}
+
+button {
+  position: absolute;
+  margin-left: 47vw;
+  margin-top: 27vw;
+  z-index: 1;
+}
+
+
+
+
+

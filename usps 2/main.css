@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  ;
+  
+}
+canvas {
+  width: 100%;
+  height: 880vh;
+  z-index: 10;
+
+}
+
+h2 {
+margin-top: 9vw;
+position: absolute;
+font-family: "helvetica";
+font-size: 5vw;
+margin-left: 7vw;
+margin-right: 7vw;
+z-index: -3;  
+}
+
+h1 {
+margin-top: 1vw;
+position: absolute;
+font-family: "helvetica";
+font-size: 9vw;
+margin-left: 7vw;
+margin-right: 7vw;
+z-index: -3;  
+}
+

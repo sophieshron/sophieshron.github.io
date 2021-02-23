@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <link rel="icon" type="image/png" href="">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src="js/paper-full.min.js"></script>
+  <script type="text/paperscript" canvas="canvas">
+
+   var myPath = new Path();
+
+   function onMouseMove(event){
+    myPath = new Path();
+    myPath.strokeColor = 'black';
+    myPath.strokeWidth = 1;
+ }
+
+ function onMouseDrag(event){
+    myPath.add(event.point);
+ }
+
+    tool.onKeyDown = function(event){
+      if (event.key == 'r'){
+        myPath.strokeColor = 'red';
+    }
+      if (event.key == 'g'){
+        myPath.strokeColor = 'lime';
+    }
+      if (event.key == 'b'){
+        myPath.strokeColor = 'blue';
+    }
+      if (event.key == 'y'){
+        myPath.strokeColor = 'gold';
+    }
+      if (event.key == 'p'){
+        myPath.strokeColor = 'magenta';
+    }
+      if (event.key == 'o'){
+        myPath.strokeColor = 'darkorange';
+    }
+  }
+  </script>
+
+  <title>All About the USPS</title>
+<head>
+
+</head>
+
+<body>
+    
+    <h2>  All About the USPS <br><br> The United States Postal Service, or the USPS is used to mail letters and packages from one place to another. The USPS helps everyone, no matter age, wealth, race, who we are or where we live. Postal Services have been an important method of communication for thousands of years. The USA has been sending mail since 1775. In 1970, postal workers went on strike to protest unfair conditions & low wages. These protests launched the start of the new USPS, or the United States Postal Service as we know it. The USPS can be called "the post office", "the postal service", or just "the mail". What makes the USPS so great is the hard-working postal workers that deliver our mail quickly and affordably. The USPS is in trouble because people aren’t sending as much mail as they used to. The USPS is owned by the people of the United States. This means it relies on sellings things like stamps in order to stay open. The USPS also competes with other delivery services like Amazon & FedEx. Donald Trump threatened to sell the USPS, which would mean it is no longer owned by the people, and that would make it much more expensive. If the USPS gets too expensive, then not everyone will be able to use it, which is unfair to many people. In the 2020 election, many Americans were afraid to vote in-person because of COVID-19. For the first time, people had the safer option to vote at home by sending their ballot in the mail. Donald Trump tried to sabotage the USPS because he didn’t want the mail-in votes to count. Hundreds of mail collection boxes were removed from city streets which made it harder for people to get their ballots in the mail. Millions of people voted by mail this year and the USPS worried that they would not be able to keep up. The USPS asked for help but Donald Trump refused to because he didn’t want mail-in voting to happen. This made many supporters of Donald Trump also against mail-in voting, which meant more oppurtunities for COVID spreading. In the end, many more mail-in ballots were for Joe Biden which led to his and Kamala Harris’ victory in 2020! If you want to support the USPS, you can send a letter to a friend. Here is how you can get started! 1. Write your friend’s address on the back of your envelope. 2. Write your own address in the top left corner so your friend will know where to reply! 3. Now, draw a picture or write a letter to your friend. Fold it up and seal your envelope! 4. All you need to send your letter in the mail is a stamp on the top right corner on the back of your envelope. 5. Now drop your letter off at the post office, a USPS collection box, or from your own mail box, and wait for a response!<br><br> By Sophie Shron for Core Topics 2020. </h2>      
+ 
+
+   
+
+  <canvas id="canvas" >
+
+  </canvas>
+
+
+
+</body>
+
+
+</html>

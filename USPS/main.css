@@ -20,6 +20,9 @@ z-index: 100;
 
 }
 
+.right:hover { transform: scale(1.1); }
+.left:hover { transform: scale(1.1); }
+
 .left {
 width: 10vw;
 margin-left: 12vw;
