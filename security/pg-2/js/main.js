@@ -83,6 +83,34 @@ function display_random_image()
         src: "img/19.jpg",
         width: "1500",
         height: "900"
+    },{
+        src: "img/20.jpg",
+        width: "1500",
+        height: "900"
+    },{
+        src: "img/21.jpg",
+        width: "1500",
+        height: "900"
+    },{
+        src: "img/22.jpg",
+        width: "1500",
+        height: "900"
+    },{
+        src: "img/23.jpg",
+        width: "1500",
+        height: "900"
+    },{
+        src: "img/24.jpg",
+        width: "1500",
+        height: "900"
+    },{
+        src: "img/25.jpg",
+        width: "1500",
+        height: "900"
+    },{
+        src: "img/26.jpg",
+        width: "1500",
+        height: "900"
     },];
     
     var preBuffer = [];
