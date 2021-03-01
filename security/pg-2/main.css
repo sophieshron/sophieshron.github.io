@@ -1,0 +1,122 @@
+#container {
+  margin: auto;
+  height: 34vw;
+}
+
+.width {
+  width: 100vw;
+} 
+
+#videoElement {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+* {
+ margin:0; padding:0; box-sizing:border-box; 
+}
+
+.smile {
+  width: 3vw;
+}
+
+.footage {
+  width: 100vw;
+  position: absolute;
+  
+}
+
+button {
+  position: absolute;
+  margin-left: 47vw;
+  margin-top: 27vw;
+  z-index: 1;
+}
+
+
+
+
+button {
+  position: absolute;
+  margin-left: 47vw;
+  margin-top: 27vw;
+  z-index: 1;
+}
+
+button { cursor: pointer; }
+
+
+
+.smile {
+  width: 3vw;
+  z-index: 100000;
+}
+
+.title {
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: .1vw;
+    font-family: 'roboto', sans-serif;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    margin:auto;
+    background-color: red;
+    color: white;
+
+
+}
+
+
+
+
+body {
+  margin: 0px;
+  background-image: url("img/tulip-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+}
+
+
+/* OUTER CONTAINER */
+.tcontainer {
+  width: 100%;
+  overflow: hidden; /* Hide scroll bar */
+}
+ 
+/* MIDDLE CONTAINER */
+.ticker-wrap {
+  width: 100%;
+  padding-left: 100%; /* Push contents to right side of screen */
+  background-color: red;
+}
+
+/* INNER CONTAINER */
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+.ticker-move {
+  /* Basically move items from right side of screen to left in infinite loop */
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 25s;
+}
+
+
+/* ITEMS */
+.ticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+  color: white;
+  font-family: 'roboto', sans-serif;
+  font-size: 4vw;
+
+
+
+}

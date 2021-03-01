@@ -1,0 +1,194 @@
+
+#index:hover {
+    cursor: url(img/favicon-01.png), auto;
+    width: 100%;
+    height: 100%;
+  }
+
+body {
+  padding: 2vw;
+}
+
+.lightbox {
+      margin: auto;
+    width: 35vw;
+}
+
+.logo {
+  width:30vw;
+  
+}
+
+.ada-img {
+    width: 35vw;
+    margin-top: -22vw;
+    position: fixed;
+}
+ 
+.img {
+  left: 10vw;
+  position: absolute;
+  visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+    margin-left: 20vw;
+    margin-top: -22.3vw;
+    position: fixed;
+    width: 38vw;
+    padding: .3vw;
+}
+
+.container {
+    width: 90vw;
+    }
+
+.header-container {
+    margin-bottom: 27vw;
+    display: block;
+
+}
+
+.nav-container {
+  display: flex;
+  width: 37.5vw;
+  margin: auto;
+  justify-content: space-around;
+  padding-bottom: 4vw;
+}
+
+.title {
+    font-size: 3.5vw;
+    padding-top: 0.5vw;
+    padding-left: .5vw;
+    padding-right: 36.5vw;
+    background-color: #2C2C2C;
+    color: white;
+    font-weight: normal;
+}
+
+.subtitle {
+  font-size: 2vw;
+  padding-top: 1vw;
+  font-style: italic;
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+.text {
+  font-family: 'helvetica'; 
+  font-weight: normal;
+}
+
+.index-column {
+    margin-top: -27vw;
+    position: absolute;
+
+}
+
+.small {
+    padding: 0.5vw;
+    padding-bottom: .5vw;
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+.index {
+  font-weight: bold;
+    font-size: 2vw;
+    padding: 0.5vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    font-family: 'helvetica';
+
+}
+
+.small:hover {
+  text-decoration: underline;
+  color: blue;
+  
+}
+
+.jump {
+  font-weight: bold;
+}
+
+@media (max-width:700px) {
+  
+.index-column {
+    margin-top: -31vw;
+    position: absolute;
+}
+
+.small{
+    padding: 0.5vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+    font-size: none;
+    font-weight: normal;
+  }
+
+.title {
+   font-size: 6vw;
+
+}
+
+.header-container {
+    border: .3vw solid;
+    margin-bottom: 27vw;
+    padding: .5vw;
+    display: flex;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.explore {
+    color: blue;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 1.5vw;
+}
+
+.gallery {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    padding: 1.5vw;
+}
+
+.nav-container {
+    display: flex;
+    width: 69.5vw;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 4vw;
+}
+
+
+
+.show {
+    visibility: visible;
+    z-index: 1;
+    margin-left: 9.2vw;
+    margin-top: -62.9vw;
+    position: absolute;
+    width: 40vw;
+}
+
+}
+
+
+
+
+
+   
