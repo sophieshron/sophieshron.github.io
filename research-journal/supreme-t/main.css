@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  position: absolute;
+  z-index: 1;
+  margin: 2vw;
+  font-size: 4vw;
+  font-family: 'roboto', serif;
+  text-align: center;
+  width: 25vw;
+  letter-spacing: 2.5vw;
+}
+
+.info {
+  position: absolute;
+  z-index: 1;
+  margin: 2vw;
+  width: 24vw;
+  margin-top:20vw;
+  font-family: 'roboto';
+}
+
+img {
+  width: 20vw;
+  position: fixed;
+}
+
+.supreme {
+  margin-top: 17vw;
+  margin-left: 35vw;
+}
+
+.supreme-t {
+  margin-top: 30vw;
+  margin-left: 40vw;
+  z-index: 1;
+  width: 15vw;
+}
+
+.dan {
+  margin-top: 10vw;
+  margin-left: 75vw;
+}
+
+.canal-st {
+  margin-top: 4vw;
+  margin-left: 56vw;
+}
+
+.cardi {
+  margin-top: 33vw;
+  margin-left: 21vw;
+}
+
+.levi-tag {
+  margin-top: 26vw;
+  margin-left: 55vw;
+}
+
+.levi-patch {
+  margin-top: 3vw;
+  margin-left: 29vw;
+}
+
+.supreme-t:hover {
+   width:16vw;
+   cursor: pointer;
+}
+
+img:hover {
+   width:21vw;
+   cursor: pointer;
+}
+
+
+

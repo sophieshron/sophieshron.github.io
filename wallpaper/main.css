@@ -28,9 +28,22 @@ a {
   color: white;
 }
 
-a:hover {
-  color: teal;
+.smithsonian:hover {
+  color: blue;
 }
+
+.gallery:hover {
+  color: magenta;
+}
+
+.next:hover {
+  color: lightgreen;
+}
+
+.prev:hover {
+  color: yellow;
+}
+
 
 
 .rgbKineticSlider {
