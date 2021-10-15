@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: vg5000-master; src: url('fonts/VG5000-Regular_web.ttf'); } 
+@font-face { font-family: youngserif; src: url('fonts/YoungSerif-Regular.otf'); } 
+
+body {
+
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+h1 {
+  padding-top: 13vw;
+  text-align: center;
+  font-size: 17vw;
+  font-weight: normal;
+  font-family: 'youngserif', sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+  width: 16vw;
+}
+
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+ .img {
+  width: 15vw;
+  position: absolute;
+ }
+
+
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+
+@keyframes rotate {
+  100% {transform: rotate(20deg);}
+}
+

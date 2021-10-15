@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: vg5000-master; src: url('fonts/VG5000-Regular_web.ttf'); } 
+
+
+body {
+  background-color: black;
+
+}
+
+.header {
+  background-color: #3E4AFE;
+  z-index: 1;
+  padding: 1vw;
+  height: 5vw;
+  display: flex;
+  align-items: baseline;
+
+}
+.col-1 {
+  padding-left: 4vw;
+  float:left;
+  padding-right: 66vw;
+}
+.col-2 {
+  float:left;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5vw;
+  font-family: 'vg5000-master', sans-serif;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5vw;
+  font-family: 'vg5000-master', sans-serif;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-wrapper > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 0vw;
+  grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+  grid-auto-rows: 20vw;
+  grid-auto-flow: dense;
+}
+
+
+img:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+div:active {
+  grid-column: span 2;
+  grid-row: span 2;
+}
