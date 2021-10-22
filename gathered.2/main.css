@@ -22,10 +22,8 @@ body {
 
 
 h1 {
-  animation: fadeIn 5s;
   padding-top: 13vw;
   text-align: center;
-  color: tan;
   font-size: 17vw;
   font-weight: normal;
   font-family: 'youngserif', sans-serif;
@@ -38,16 +36,21 @@ h1 {
 
 
 a {
-
   color: white;
   text-decoration: none;
+
 }
 
 a:hover {
-  opacity: 70%;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-
+img:hover {
+  cursor: pointer;
+  width: 16vw;
+}
 
 
 
@@ -57,14 +60,9 @@ a:hover {
   }
 }
 
- img {
-  animation: fadeIn 5s;
-z-index: -10;
+ .img {
+  width: 15vw;
   position: absolute;
-  width: 70vw;
-  mix-blend-mode: ;
-  margin-left: 27vw;
-  padding-top: 14vw;
  }
 
 
@@ -73,5 +71,8 @@ z-index: -10;
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }   
+
+@keyframes rotate {
+  100% {transform: rotate(20deg);}
 }
 

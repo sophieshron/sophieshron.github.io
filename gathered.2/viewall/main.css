@@ -1,0 +1,78 @@
+#myinput {
+  background-color: black;
+  color: white;
+  border: 0px none;
+  -moz-box-shadow: none;
+  outline: none;
+  font-size: 2vw;
+  padding: 2vw;
+  padding-left: 1vw;
+  font-family: 'youngserif', sans-serif;
+  animation: blinker 2s linear infinite;
+}
+
+.input-border{
+  border: solid;
+  border-color: white;
+  border-width: .2vw;
+  height: 4.3vw;
+  margin-bottom: 2vw;
+  width: 30vw;
+  margin-left: 52vw;
+
+}
+
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+h2:hover {
+color:blue;
+text-decoration: underline;
+}
+
+a {
+
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face { font-family: youngserif; src: url('fonts/YoungSerif-Regular.otf'); } 
+
+
+
+
+
+
+
+
+.portfolio-thumbnail img {
+    width: 30vw; /* width of container */
+    height: 20vw; /* height of container */
+    object-fit: cover;
+
+}
+
+.paddsection {
+  margin-left: -5vw;
+}
+
+
+
+
+
+
