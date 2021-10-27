@@ -1,4 +1,4 @@
-//screenshot
+//online mirror
 
 //gallery menu
 $(function() {
